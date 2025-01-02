@@ -36,4 +36,16 @@ sudo adduser root ssl-cert
 # 4. Install Package
 sudo apt install gdebi
 
-echo "Script telah selesai."
+# 5. Download OpenLedger Zip
+wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip
+
+# 6. Install unzip
+sudo apt install unzip
+
+# 7. Unzip File OpenLedger
+unzip openledger-node-1.0.0-linux.zip
+
+# 8. Install Package Zip
+sudo apt install ./openledger-node-1.0.0-linux.zip
+
+echo "Script telah Selesai"
