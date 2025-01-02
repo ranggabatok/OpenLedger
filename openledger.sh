@@ -32,6 +32,8 @@ sudo apt install xrdp
 sudo systemctl enable xrdp
 sudo systemctl start xrdp
 sudo adduser root ssl-cert
+
+# 4. Install Package
 sudo apt install gdebi
 
 echo "Script telah selesai."
